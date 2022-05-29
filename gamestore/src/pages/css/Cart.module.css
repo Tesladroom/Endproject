@@ -1,0 +1,73 @@
+/* body {
+  background-color: aqua;
+} */
+
+.cartProduct {
+    display: flex; /* vasakult paremale */
+    justify-content: space-around; /* võrdsed tühimikud */
+    border-bottom: 1px solid lightgray;
+    margin: 0 10%; /* tõukab eemale */
+    padding: 10px 0; /* tõukab sissepoole */
+    /* border-bottom   border-top
+    border: 10px */
+  
+    /* margin: 10px   ---- igas suunas tõukab eemale
+      margin: 20px 30px;   üles-alla 20px ja vasak-parem 30px
+      margin: 40px 50px 70px 60px;  üles 40px, paremale 50px, alla 70px, vasakule 60px */
+  
+      /* px: .     %: sellest kelle sees ta asub     vh või vw:    brauseriaknast protsent */
+      position: relative;
+  }
+  
+  .cartProductImg {
+    width: 200px;
+  }
+  
+  .cartProductName {
+    width: 300px;
+  }
+  
+  .cartProductPrice {
+    width: 70px;
+  }
+  
+  .cartProductButton {
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+    opacity: 0.7;
+    transition: .5s;
+  }
+  
+  .cartProductButton:hover {
+    opacity: 1.0;
+    transition: .5s;
+  }
+  
+  .cartProductQuantityControls {
+    width: 100px;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+ @media only screen and (max-width: 1000px) {
+   .cartProductImg{
+     width: 175px;
+   }
+   .cartProductName{
+     width: 250px;
+   }
+
+ }
+   
+ @media only screen and (max-width: 8200px) {
+  .cartProductImg{
+    width: 150px;
+  }
+  .cartProductName{
+    width: 200px;
+  }
+
+}
+    
+  

@@ -1,0 +1,14 @@
+
+
+.lang {
+    height: 30px;
+}
+
+.lang:hover {
+    transition: .5s;
+    transform:scale(1.1);
+    cursor: pointer;
+    box-shadow: 0 8px 180px 0px rgb(218, 13, 13);
+  }
+
+  

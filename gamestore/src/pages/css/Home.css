@@ -1,0 +1,13 @@
+.active {
+    border: 1px solid green;
+}
+
+.inactive {
+    border: 1px solid red;
+}
+
+.product {
+    margin: 1% 10%;
+    width: 50%;
+    border: 1px solid black;
+}
